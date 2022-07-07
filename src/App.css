@@ -105,7 +105,7 @@ body {
   margin: 0 auto;
   border: 1px solid black;
   margin-top: 24px;
-  padding: 5px;
+  padding: 3px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
@@ -113,6 +113,7 @@ body {
 
 .btn {
   margin: 5px;
+  margin-top: 3px;
   padding-top: 8px;
   padding-bottom: 8px ;
   padding-left: 16px;
@@ -120,6 +121,26 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.mode {
+  margin: 5px;
+  margin-top: 3px;
+  /* padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+  padding: 8px;
+  position: relative;
+  top: 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mode:hover {
+  background-color: rgb(243, 243, 243);
 }
 
 .contact{
@@ -141,15 +162,34 @@ body {
   top: 10px;
 }
 
+.darkmode {
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 4px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+
+.darkmode:hover {
+  
+  background-color: rgb(243, 243, 243);
+}
+
 .right {
   display: flex;
-  cursor: pointer;
   width: 200px;
   padding: 5px;
   /* background-color: #b1b2b6; */
   justify-content: space-between;
 }
 
-/* .steam {
-  padding-top: 6px;
-} */
+.pointer {
+  cursor: pointer;
+}
+
+
