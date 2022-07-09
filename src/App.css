@@ -304,3 +304,66 @@ body {
   margin-top: 48px;
   margin-bottom: 48px;
 }
+
+/* .home {
+  margin: 5px;
+  margin-top: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px ;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+/* 
+.home {
+  color: black;
+  background-color: #f0f0f0;
+  margin: 5px;
+  margin-top: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px ;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home:hover {
+  background-color: #e7e7e7;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  font-family: var(--ff-primary);
+} */
+
+/* .Nav {
+  padding-bottom: 7px;
+  margin-bottom: 2px;
+}
+
+.contact:hover {
+  background-color: #e7e7e7;
+} */
+.link {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  all: unset;
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+}
