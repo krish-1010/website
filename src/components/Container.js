@@ -1,4 +1,5 @@
 import Tools from "./Tools";
+import Footer from "./Footer";
 
 export default function Container() {
   return (
@@ -34,6 +35,23 @@ export default function Container() {
         of technologies and languages I've had experience with in the past, or
         use currently.
       </p>
+
+      <Tools></Tools>
+
+      <h2 className="h24">Projects 🛠️</h2>
+
+      <p className="p4">
+        In my free time, I enjoy creating open source projects on GitHub, so I
+        can learn from others and showcase what I know. In total, all of my open
+        sourced projects have earnt me 118 stars on GitHub, and 10 forks.
+      </p>
+
+      <p className="p5">
+        if you looking to hire me for any freelancing or consulting work, please
+        reach out to me at Email.
+      </p>
+      <hr></hr>
+      <Footer></Footer>
     </div>
   );
 }

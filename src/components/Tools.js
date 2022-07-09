@@ -1,6 +1,6 @@
 export default function Tools() {
     return(
-        <div>
+        <div className="tools">
         </div>
     );
 }
