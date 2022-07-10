@@ -1,9 +1,10 @@
 import Tools from "./Tools";
 import Footer from "./Footer";
 
-export default function Container() {
+export default function Container(props) {
   return (
-    <div className="Container">
+    <div id="wrapper" className={props.darkMode ? "dark" : ""}>
+      <div className="Container">
       <h1 className="h11">Hey, I'm Krishna &#128075;</h1>
       <p className="p1">
         <span>
@@ -52,6 +53,7 @@ export default function Container() {
       </p>
       <hr></hr>
       <Footer></Footer>
+    </div>
     </div>
   );
 }

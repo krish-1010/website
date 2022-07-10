@@ -1,9 +1,10 @@
+import React from 'react';
 import Container from './Container';
 
-export default function Main() {
+export default function Main(props) {
     return(
-        <div className='Main'>
-            <Container></Container>
+        <div id='Main' className={props.darkMode ? "dark":""}>
+            <Container/>
         </div>
     );
 }
