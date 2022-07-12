@@ -107,7 +107,6 @@ body {
   display: flex;
   width: 50rem;
   justify-content: space-between;
-  
   flex-direction: row;
   /* margin: 0 auto; */
   border: 1px solid black;
@@ -157,11 +156,11 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-.contact{
+.contactbtn{
   background-color: white;
 }
 
-.contact:hover {
+.contactbtn:hover {
   background-color: rgb(243, 243, 243);
 }
 
@@ -404,18 +403,13 @@ a {
   flex-direction: row;
 }
 
-.Container {
-  /* padding-top: 52px; */
-  padding-top: 4.09rem;
-  margin-bottom: 8rem;
-  /* width: 100%; */
-  width: 45rem;
-  
-  /* display: flex; */
+/* padding-top: 52px; *//* width: 100%; *//* display: flex; */
   /* padding-left: 40px;
   padding-right: 40px; */
-   
-  
+.Container {
+  padding-top: 4.09rem;
+  margin-bottom: 8rem;
+  width: 45rem;
 }
 
 
@@ -437,7 +431,6 @@ a {
 #Navbar {
   width: 100%;
   display: flex;
-  
   align-items: center;
   justify-content: center;
 }
@@ -445,17 +438,15 @@ a {
 #Main {
   width: 100%;
   display: flex;
-  
   justify-content: center;
 }
 
-.Container {
-  /* padding-top: 52px; */
+/* padding-top: 52px; *//* width: 100%; */
+/* .Container {
   padding-top: 4.09rem;
   margin-bottom: 8rem;
-  /* width: 100%; */
   width: 45rem;
-}
+} */
 
 
 .dark {
@@ -472,6 +463,10 @@ a {
   background-color: rgb(32, 36, 42);
   color: white;
 }
+
+/* .contactbtn {
+  background-color: transparent;
+} */
 
 .dark .contactbtn {
   background-color: transparent;
@@ -516,22 +511,22 @@ a {
   color: rgb(20, 27, 40);
 }
 
-.content{
+/* .content{
   width: 100%;
   display: flex;
   justify-content: center;
-}
+} */
 
-#contactContainer {
+/* #contactContainer {
   width: 100%;
   display: flex;
   justify-content: center;
-}
+} */
 
-#contactMain {
+/* #contactMain {
   width: 45rem;
   padding-top: 2rem;
-}
+} */
 
 .dark .content {
   background-color: #040508;
@@ -540,3 +535,53 @@ a {
 .dark .content {
   background-color: black;
 }
+
+#cWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#cContainer {
+  width: 45rem;
+  /* display: flex;
+  justify-content: center; */
+}
+
+#cContent {
+  width: 100%;
+  height: 885px;
+  padding-top: 4.1rem;
+}
+
+.ch1 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+}
+
+.cp1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 1.49rem;
+}
+
+.cp2 {
+  color: rgb(187, 187, 187);
+}
+
+.fun {
+  padding-top: 0.20rem;
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+.time {
+  font-weight: bold;
+}
+

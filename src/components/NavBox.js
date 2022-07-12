@@ -28,7 +28,7 @@ export default function Navbar(props) {
       
         
           <Link to="/contact" className="link"><button className="btn contactbtn">
-            Contact</button>
+            <span className="active">Contact</span></button>
           </Link>
         
       </div>
