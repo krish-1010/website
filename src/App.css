@@ -476,7 +476,7 @@ a {
   background-color: rgba(32, 36, 42,0.5);
 }
 
-.dark svg {
+.dark .nsvg {
   fill: white;
 }
 
@@ -587,10 +587,9 @@ a {
 
 .cbox {
   display: grid;
-  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;  
   margin-bottom: 5rem;
-  border: 1px solid red;
 }
 
 .cp2 {
@@ -600,6 +599,8 @@ a {
 .grid1 {
   grid-column: span 2/ span 2;
   padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.375rem;
 }
 
 .gridh1 {
@@ -663,6 +664,10 @@ a {
   border-radius: 9999px;
 }
 
+.dark .sendbtn {
+  fill: white;
+}
+
 .sendtxt {
   margin-top: 2px;
   font-weight: 500;
@@ -683,3 +688,65 @@ a {
   border-color: rgb(75, 67, 217);
   color: white;
 }
+
+.grid2 {
+  grid-row: auto;
+}
+
+.a1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.375rem;
+}
+
+/* .a1:hover {
+  transform: perspective(600px) rotateX(0deg) rotateY(0deg) scale(1);
+  transition-duration: 0.15s;
+} */
+
+.svg1 {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.goto {
+  width: 1.25em;
+  height: 1.25em;
+  display: block;
+  font-size: 16px;
+}
+
+.githubh1 {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+a {
+  margin-top: 0;
+}
+
+.discord {
+  color: #5865f2;
+}
+
+.mail {
+  color: #1da1f2;
+}
+
+.dark .discord {
+  color: #5865f2;
+}
+
+.dark svg #mail {
+  color: #1da1f2;
+}
+

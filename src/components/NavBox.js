@@ -11,7 +11,7 @@ export default function Navbar(props) {
         </span> */}
         <button className="mode" onClick={props.toggleDarkMode}>
           <svg
-            className="sun"
+            className="sun nsvg"
             fill="#000000"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ export default function Navbar(props) {
       <div className="right">
         <a href="https://google.com" target="_blank" rel="noopener">
           <svg
-            className="pointer github"
+            className="pointer github nsvg"
             id="github"
             fill="#000000"
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export default function Navbar(props) {
 
         <a href="https://google.com" target="_blank" rel="noopener">
           <svg
-            className="pointer twitter"
+            className="pointer twitter nsvg"
             fill="#000000"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 30 30"
@@ -60,7 +60,7 @@ export default function Navbar(props) {
 
         <a href="https://google.com" target="_blank" rel="noopener">
           <svg
-            className="pointer steam"
+            className="pointer steam nsvg"
             width="25px"
             height="30"
             viewBox="0 0 32 32"
@@ -72,7 +72,7 @@ export default function Navbar(props) {
 
         <a href="https://google.com" target="_blank" rel="noopener">
           <svg
-            className="pointer linkedin"
+            className="pointer linkedin nsvg"
             fill="#000000"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 50 50"
@@ -84,7 +84,7 @@ export default function Navbar(props) {
 
         <a href="https://google.com" target="_blank" rel="noopener">
           <svg
-            className="pointer mail"
+            className="pointer mail nsvg"
             id="mail"
             xmlns="http://www.w3.org/2000/svg"
             width="23px"
