@@ -38,7 +38,7 @@ export default function Navbar(props) {
           )}
         </button>
 
-        <Link to="/" className="link">
+        <Link to="/portfolio" className="link">
           <button className="btn home">Home </button>
         </Link>
 
