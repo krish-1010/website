@@ -750,3 +750,9 @@ a {
   color: #1da1f2;
 }
 
+.moon {
+  font-size: 16px;
+  color: white;
+  height: 1.25rem;
+  width: 1.25rem;
+}

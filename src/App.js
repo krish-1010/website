@@ -12,13 +12,13 @@ function App() {
     setDarkMode(prevMode => !prevMode)
   }
   return (
-    <Router>
+    <Router >
       <div className="App">
           {/* <Box darkMode={darkMode} /> */}
           <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}></Navbar>
         <div className='content'>
           <Routes>
-            <Route path="/portfolio" element={<Main darkMode={darkMode}/>} />
+            <Route path='/' element={<Main darkMode={darkMode}/>} />
             <Route path="/contact" element={<Contact darkMode={darkMode}/>} />
           </Routes>
         </div>
