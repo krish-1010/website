@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar(props) {
   return (
@@ -38,15 +38,15 @@ export default function Navbar(props) {
           )}
         </button>
 
-        <Link to="/portfolio" className="link">
+        <NavLink to="/portfolio" className="Link">
           <button className="btn home">Home </button>
-        </Link>
+        </NavLink>
 
-        <Link to="/contact" className="link">
+        <NavLink to="/contact" className="Link">
           <button className="btn contactbtn">
-            <span className="active">Contact</span>
+            <span>Contact</span>
           </button>
-        </Link>
+        </NavLink>
       </div>
       <div className="right">
         <a href="https://google.com" target="_blank" rel="noopener">
@@ -88,7 +88,7 @@ export default function Navbar(props) {
 
         <a href="https://google.com" target="_blank" rel="noopener">
           <svg
-            className="pointer linkedin nsvg"
+            className="pointer NavLinkedin nsvg"
             fill="#000000"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 50 50"

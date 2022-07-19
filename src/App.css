@@ -156,13 +156,13 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-.contactbtn{
+/* .contactbtn{
   background-color: white;
 }
 
 .contactbtn:hover {
   background-color: rgb(243, 243, 243);
-}
+} */
 
 .logo {
   margin: 5px;
@@ -458,7 +458,7 @@ a {
   background-color: rgba(18,24,29,0.6);
   border: 1px solid rgb(30,41,59);  
 }
-
+/*come here*/
 .dark .btn {
   background-color: rgb(32, 36, 42);
   color: white;
@@ -468,12 +468,17 @@ a {
   background-color: transparent;
 } */
 
-.dark .contactbtn {
+.dark .btn {
   background-color: transparent;
 }
 
-.dark .contactbtn:hover {
+.dark .btn:hover {
   background-color: rgba(32, 36, 42,0.5);
+}
+
+.dark a.active {
+  background-color: #20232a;
+  border-radius: 0.375rem;
 }
 
 .dark .nsvg {
@@ -755,4 +760,12 @@ a {
   color: white;
   height: 1.25rem;
   width: 1.25rem;
+}
+
+.btn {
+  background-color: white;
+}
+
+a.active button{
+  background-color: #e5e5e5;
 }
