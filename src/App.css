@@ -321,6 +321,11 @@ body {
   color: #3b82f6;
 }
 
+.bluetext:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* c cpp python java html css javascript react git vscode */
 
 .tools {

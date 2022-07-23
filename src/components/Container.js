@@ -12,7 +12,7 @@ export default function Container(props) {
           India. <br></br> My main professionalism is in web development, but I
           also have experience working with latest tech-stacks. <br></br> Apart
           from web dev, I have learned blockchain development and worked with
-          big companies like Layer3 and Thirdweb by building smart contracts for
+          big companies like <a className="bluetext" href="https://www.google.com">Layer3</a> and <a className="bluetext" href="https://www.google.com">Thirdweb</a> by building smart contracts for
           their projects using solidity. I am a part-time freelancer :)
         </span>
       </p>
@@ -42,14 +42,14 @@ export default function Container(props) {
       <h2 className="h24">Projects 🛠️</h2>
 
       <p className="p4">
-        In my free time, I enjoy creating open source projects on GitHub, so I
+        In my free time, I enjoy creating open source projects on <a className="bluetext" href="https://www.google.com">GitHub</a>, so I
         can learn from others and showcase what I know. In total, all of my open
         sourced projects have earnt me 118 stars on GitHub, and 10 forks.
       </p>
 
       <p className="p5">
         if you looking to hire me for any freelancing or consulting work, please
-        reach out to me at Email.
+        reach out to me at <a className="bluetext" href="https://www.google.com">Email</a>.
       </p>
       <hr></hr>
       <Footer></Footer>
